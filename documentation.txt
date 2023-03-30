@@ -1,0 +1,15 @@
+Kod dosyaları bir Python Virtual Environment'ı içinde. 
+Aktive etmek için aşağıdaki komutu, IBBTech github folderı içinde çalıştırınız.
+
+source env/bin/activate
+
+Tüm dependencyleri indirmek için aşağıdaki komutu çalıştırınız.
+
+pip install -r requirements.txt
+
+Kodu çalıştırmak için aşağıdaki komutu çalıştırınız
+
+python3 DetectCircle.py
+
+"Result.jpg" dökümanında siyah bölgeler, beyaz olarak gösterilir. Kalan renklerin hepsi siyah renktedir.
+Test resimleri ile test edilmeli
